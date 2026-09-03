@@ -39,7 +39,7 @@ No forman parte del alcance:
 ## 3.1 Diagrama Funcional
 
 ```text
-                 +----------------------+
+                  +----------------------+
  level ---------->| Detector de Flanco  |----------> tick
                   |      de Subida      |
                   +----------+-----------+
