@@ -1,5 +1,5 @@
 # rising-edge_detector
-Ejercicio de diseño y verificación de une tetector de flancos positivos
+Ejercicio de diseño y verificación de une detector de flancos positivos
 
 Descripción de la verificación del proyecto red IP
 
