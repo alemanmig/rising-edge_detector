@@ -40,12 +40,17 @@ No forman parte del alcance:
 
 ```text
                   +----------------------+
- level ---------->| Detector de Flanco  |----------> tick
-                  |      de Subida      |
+ level ---------->| Detector de Flanco   |----------> tick
+                  |      de Subida       |
                   +----------+-----------+
                              |
                             clk
 ```
+
+## 3.2 Diagrama de estados
+
+![Diagrama de estados](images/edge-d-state-diagram.svg)
+
 
 ## 3.2 Libertad de Diseño
 
