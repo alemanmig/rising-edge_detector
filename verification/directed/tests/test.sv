@@ -66,11 +66,11 @@ module test (
     vif.level_i= 1'b0;
   endtask : test_edge_002
   
-    task automatic test_edge_002 ();
+    task automatic test_edge_002_2 ();
     vif.level_i = 1'b1;
     @(posedge vif.clk_i);
     vif.level_i= 1'b0;
-  endtask : test_edge_002
+  endtask : test_edge_002_2
   
   task automatic test_edge_002_1 ();
     vif.level_i = 1'b1;
