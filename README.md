@@ -170,12 +170,10 @@ git merge origin/main
 
 ### Manuales
 
-1. [(UG900) Vivado Design Suite User Guide - Logic Simulation](https://docs.amd.com/viewer/book-attachment/U8cK6J65oySTywrNQQKQKw/etODWMMLPls2y3sy8nmaMg-U8cK6J65oySTywrNQQKQKw)
-2. [(UG937) Vivado Design Suite Tutorial - Logic Simulation](https://docs.amd.com/viewer/book-attachment/AQgD74oGsbut9Xk6PJxfeg/ru_jonSSGpL1ZaPwb3D3cA-AQgD74oGsbut9Xk6PJxfeg)
-3. [(UG906) Vivado Design Suite User Guide - Design Analysis and Closure Techniques](https://docs.amd.com/viewer/book-attachment/HKXDYGChb9XYiCDCLp4tqA/1UwxVI3GMJjdVgdG3TrZBQ-HKXDYGChb9XYiCDCLp4tqA)
+1. [Referencia principal de verificación - Simulación, SystemVerilog y Synopsys](https://uvmcollab.org)
 
 > [!IMPORTANT]  
-> Todos los manuales son del año 2025
+> Las referencias de Verificación son importantes
 
 ## Contactos
 
