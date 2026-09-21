@@ -1,7 +1,7 @@
 ##=============================================================================
 ## [Filename]       Makefile.vcs
 ## [Project]        -
-## [Author]         Ciro Bermudez - cirofabian.bermudez@gmail.com
+## [Author]         Miguel Aleman - melamen@cic.ipn.mx
 ## [Language]       GNU Makefile
 ## [Created]        Dec 2025
 ## [Modified]       -
@@ -87,7 +87,7 @@ endif
 # ==============================  TOOLS SETUP  ================================
 
 # Files
-RTL_FILES = $(RTL_DIR)/counter.sv
+RTL_FILES = $(RTL_DIR)/edge_detector_moore.sv
 SVE = -F $(TB_DIR)/sve.f
 VERDI_FILE = $(VERDI_DIR)/verdi.tcl
 DPI_FILE = $(DPI_DIR)/dpi.cpp
