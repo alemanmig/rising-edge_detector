@@ -4,5 +4,6 @@
 +incdir+tb
 +incdir+sv
 sv/vif_if.sv
+sva/sva.sv
 tests/test.sv
 tb/tb.sv
