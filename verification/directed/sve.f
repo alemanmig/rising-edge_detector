@@ -1,4 +1,5 @@
 +incdir+rtl
++incdir+sva
 +incdir+tests
 +incdir+tb
 +incdir+sv
