@@ -1,7 +1,7 @@
 //////////////////////////////////////////
 //
 //  SVA checker
-//  archivo: edge_detect_moore_sva.sv
+//  archivo: sva.sv
 //  proyecto: rising-edge-detector
 //  referencia: docs/red_specs.md (EDGE-HRS-001)
 //
@@ -10,9 +10,11 @@
 //  para cualquier arquitectura permitida por la especificacion
 //  (Moore, Mealy, comparacion con estado previo, etc).
 //
+//  Se instancia mediante bind en el top (ver tb/tb.sv).
+//
 //////////////////////////////////////////
 
-module edge_detect_moore_sva (
+module sva (
     input logic clk_i,
     input logic rst_i,
     input logic level_i,
@@ -79,11 +81,4 @@ module edge_detect_moore_sva (
     !$isunknown({level_i, tick_o})
   ) else $error("valor X/Z detectado en level_i o tick_o");
 
-endmodule : edge_detect_moore_sva
-
-bind edge_detect_moore edge_detect_moore_sva u_edge_detect_moore_sva (
-    .clk_i  (clk_i),
-    .rst_i  (rst_i),
-    .level_i(level_i),
-    .tick_o (tick_o)
-);
+endmodule : sva
