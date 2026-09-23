@@ -32,6 +32,13 @@
       .tick_o(vif.tick_o)
   );
   
+  bind dut sva
+   dut_sva (
+      .clk_i(vif.clk_i),
+      .rst_i(vif.rst_i),
+      .level_i(vif.level_i),
+      .tick_o(vif.tick_o)
+  );
 
   initial begin
     $timeformat(-9, 1, "ns", 10);
